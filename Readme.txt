@@ -1,3 +1,8 @@
+    To use this application a SQL database needs to be created, I have inlcuded the name and all relevant tables used.
+I left the username as root and password blank on this application but if someone wants to use it, they are encouraged
+to create a unique user and password for security purposes. The purpose of this application is to create a dynamic calender that saves and updates events as the user adds them. As well as displays the events and marks days in the monthly or yearly 
+view with ** if there is an event on that day.
+
 Database name: calendar
 
 CREATE TABLE appointments (
