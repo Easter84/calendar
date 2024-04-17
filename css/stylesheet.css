@@ -1,0 +1,90 @@
+html, body {
+    background-color: #cccfd3;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: auto;
+    width: 50%;
+    font-size: 36px;
+}
+
+h2 {
+    margin: auto;
+    font-size: 32px;
+    width: 50%;
+}
+
+.top_bar {
+    top: 0;
+    margin-left: 160px;
+    height: 92px;
+    background-color: #244569;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.side_bar {
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #244569;
+    margin-right: 160px;
+    width: 160px;
+    color: white;
+    font-size: 25px;
+    position: fixed;
+    padding-top: 50px;
+}
+
+
+.link {
+    color: aqua;
+    font-size: 15px;
+    margin-left: 35px;
+}
+
+.main {
+    margin-left: 160px;
+    padding: 20px;
+
+}
+
+.table_container {
+    margin: 20px auto;
+    max-width: 80%;
+}
+
+.table_design {
+    margin: 0;
+    margin-left: 15%;
+    padding: 0px;
+    border-collapse: collapse;
+    max-width: 100%;
+}
+
+.table_design th,
+.table_design td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+
+.sub_table_design {
+    margin: 0;
+    margin-left: 25%;
+    padding: 0px;
+    max-width: 100%;
+}
+
+.sub_table_design th,
+.sub_table_design td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
